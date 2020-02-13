@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    position: relative;
+    padding: 10px;
+    background-color: rgb(128, 126, 126)
+}
+
+.caixa{
+    position: relative;
+    padding: 10px;
+    margin: 100px auto;
+    background-color: white;
+    width: 325px;
+    height: 300px;
+}
+.caixa form{
+    text-align: center;
+}
+.caixa label{
+    float: left;
+}
+.caixa #nome, .caixa #email{
+    font-size: 24px;
+}
